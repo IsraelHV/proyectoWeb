@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>.::Pantalla Inicio::.</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link  rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link  rel = "stylesheet" href = "./css/materialize-social.css">
+  
+
+
+  <!-- My CSS -->
+  <link href="./css/mystyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+  <link rel="icon" type="image/png" href="./Imagenes/escudoESCOM.png">
+
+</head>
+
+<body>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="./php/loginEstudiante.php" class="teal-text text-darken-4">Alumno</a></li>
+    <!-- <li><a href="#!" class="teal-text text-darken-4">Comprobante</a></li> -->
+    <li class="divider"></li>
+    <li><a href="./php/loginAdministrativo.php" class="teal-text text-darken-4">Administrador</a></li>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="./php/loginEstudiante.php" class="teal-text text-darken-4">Alumno</a></li>
+    <!-- <li><a href="#!" class="teal-text text-darken-4">Comprobante</a></li> -->
+    <li class="divider"></li>
+    <li><a href="./php/loginAdministrativo.php" class="teal-text text-darken-4">Administrador</a></li>
+  </ul>
+
+    <!-- nav -->
+  <div class="navbar-fixed">
+
+    <nav class="cyan darken-4" role="navigation">
+      
+      <div class="nav-wrapper container">
+
+        <a href="./index.html" class="brand-logo cyan-text text-accent-2"><i class="material-icons">computer</i>ESCOM</a>
+
+        <!-- <a id="logo-container" href="#" class="brand-logo cyan-text text-accent-2">
+
+          <img src="./Imagenes/logoESCOM.png">
+          ESCOM 
+
+        </a> -->
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./index.html" class="cyan-text text-accent-2">Inicio</a></li>
+          
+          <li><a href="./php/loginEstudiante.php" class="cyan-text text-accent-2">Imprimir comprobante</a></li>
+          <li><a href="./php/formulario.php" class="cyan-text text-accent-2">Registrarse</a></li>
+
+          <!-- Dropdown Trigger -->
+
+          <li><a class="dropdown-trigger cyan-text text-accent-2" href="#!" data-target="dropdown1">Iniciar Sesión<i class="material-icons right">person</i></a></li> 
+          <!-- <li><a class="dropdown-trigger cyan-text text-accent-2" href="#!" data-target="dropdown1">Iniciar Sesión<i class="material-icons right">arrow_drop_down</i></a></li> -->
+
+          <!-- <li><a href="#" class="cyan-text text-accent-2"><i class="material-icons">person</i></a></li> -->
+        
+        </ul>
+
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons cyan-text text-accent-2">menu</i></a>
+      
+      </div>
+    </nav>   <!-- nav -->
+
+  </div>
+
+  <!--Corregi el nav a fija recuerda la estructura-->
+  <ul id="nav-mobile" class="sidenav cyan darken-4 ">
+    <li><a href="./index.html" class="cyan-text text-accent-2">Inicio</a></li>
+    <li><a href="./php/loginEstudiante.php" class="cyan-text text-accent-2">Imprimir comprobante</a></li>
+    <li><a href="./php/formulario.php" class="cyan-text text-accent-2">Registrarse</a></li>
+    
+    <li><a class="dropdown-trigger cyan-text text-accent-2" href="#!" data-target="dropdown2">Iniciar Sesión<i class="material-icons right cyan-text text-accent-2">person</i></a></li>
+  
+    <!-- <li><a href="#" class="cyan-text text-accent-2">Login<i class="material-icons cyan-text text-accent-2">person</i></a></li> -->
+  
+  </ul>
+
+
+  <!-- Bannner -->
+  <div id="index-banner" class="parallax-container">
+
+    <div class="section no-pad-bot">
+      <div class="container">
+
+        
+        <h2 class="header center blue-grey-text text-darken-4">Registro de Datos Generales</h2>
+
+        <div class="row center" id="mensaje_oculto">
+          <!-- <h4 class="header col s12 light blue-grey-text text-darken-4">Alumnos de nuevo ingreso de la ESCOM (2021)</h4> -->
+          <h4 class="header col s12 blue-grey-text text-darken-4">Alumnos de nuevo ingreso de la ESCOM (2021)</h4>
+        </div>
+
+        <div class="row center">
+          <a href="./php/formulario.php" id="download-button" class="btn-large waves-effect waves-light cyan darken-4">Iniciar Registro</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="parallax"><img src="./Imagenes/ImagenMate2.jpg" alt="Unsplashed background img 1"></div>
+
+    <br><br>
+  </div><!-- Bannner -->
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h1 class="center brown-text"><i class="large material-icons">school</i></h1>
+            <h5 class="center">Educación Continua</h5>
+
+            <p class="light">Una de las actividades que la Escuela Superior de Cómputo (ESCOM) debe promover y apoyar, es la vinculación con la sociedad, a través de su quehacer académico.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h1 class="center brown-text"><i class="large material-icons">record_voice_over</i></h1>
+            <h5 class="center">Cursos de Inglés</h5>
+
+            <p class="light">Cursos de inglés de 40 horas distribuidas en seis semanas por nivel de un total de quince niveles. Puedes ingresar por examen de colocación, desde primer nivel básico, o darle continuidad a algún curso que hayas tomado de manera oficial en IPN, o a través de certificaciones internacionales. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h1 class="center brown-text"><i class="material-icons">settings</i></h1>
+            <h5 class="center">Laboratorios de Inovación</h5>
+
+            <p class="light">En la ESCOM ofrecemos soluciones en TIC (Tecnologías de la Información y Comunicación) y Procesos de Negocio para satisfacer las necesidades de desarrollo y soporte de su empresa. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="center">
+          <h6 class="header col s12 light">Nuestro compromiso es asegurar servicios educativos de calidad, mediante la oferta de programas académicos pertinentes, que logren la satisfacción de las y los alumnos, en su formación integral como profesionistas competentes, para contribuir al desarrollo científico, tecnológico, cultural y socioeconómico del país ; sustentado en el cumplimiento de los requisitos normativos aplicables y en el mantenimiento de la mejora continua del SGC.</h6>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./Imagenes/fondo5.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Misión</h4>
+          <h6 class="left-align light">Formar profesionales líderes en saberes de ingeniería, tecnología y ciencias, de la computación, con una visión globalizada; así como contribuir con investigación y desarrollo tecnológico para el crecimiento del país.</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 black-text text-darken-4">Visión</h4>
+          <h6 class="header col s12 black-text text-darken-4">Ser la Unidad Académica, líder en la formación de profesionales en ingeniería, tecnología y ciencias, de la computación, con base en un proceso educativo integral, incluyente y eficiente, que responda a su compromiso social.</h6>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./Imagenes/fondo1.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <!-- blue-text text-darken-2 -->
+
+  <!-- footer -->
+  <!-- <footer class="page-footer teal"> -->
+  <footer class="page-footer cyan darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="cyan-text text-accent-2">INSTITUTO POLITÉCNICO NACIONAL</h5>
+          <p class="cyan-text text-accent-2">D.R. Instituto Politécnico Nacional (IPN). Av. Luis Enrique Erro S/N, Unidad Profesional Adolfo López Mateos, Zacatenco, Delegación Gustavo A. Madero, C.P. 07738, Ciudad de México 2009-2013.</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="cyan-text text-accent-2">Contactos</h5>
+          <ul>
+            <li><a class="cyan-text text-accent-2" href="#!">Mesa de ayuda: dudas e información gobmx@funcionpublica.gob.mx</a></li>
+            <li><a class="cyan-text text-accent-2" href="#!">Denuncia contra servidores públicos</a></li>
+            <li><a class="cyan-text text-accent-2" href="#!">Síguenos en</a></li>
+    
+            <a class="waves-effect waves-light social-icon btn facebook" href="https://www.facebook.com/escomipnmx/"><i class="fa fa-facebook"></i></a>
+            <a class="waves-effect waves-light btn-floating social twitter" href="https://twitter.com/escomunidad?lang=es"><i class="fa fa-twitter"></i> Sign in with twitter</a>
+
+          </ul>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="cyan-text text-accent-2">Enlaces</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.gob.mx/sep">www.gob.mx/SEP/</a></li>
+            <li><a class="white-text" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin">Portal de Obligaciones de Transparencia</a></li>
+            <li><a class="white-text" href="https://www.infomex.org.mx/gobiernofederal/home.action"></a>Sistema Infomex</li>
+            <li><a class="white-text" href="https://home.inai.org.mx/">INAI</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho por <a class="brown-text text-lighten-3" href="https://github.com/IsraelHV">EQUIPO 9 - WEB</a>
+      </div>
+    </div>
+  </footer><!-- footer -->
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="./js/myjavascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.2/dist/sweetalert2.all.min.js"></script>
+
+  </body>
+</html>
